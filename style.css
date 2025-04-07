@@ -164,3 +164,32 @@ main {
   justify-content: center;
   gap: 1rem;
 }
+
+.team-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+.team-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  background-color: #9c27b0;
+  color: #fff;
+}
+
+.popular-team {
+  position: relative;
+  animation: pulseGlow 2s infinite;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+  border: 2px solid #ffd700;
+}
+
+@keyframes pulseGlow {
+  0% {
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 25px rgba(255, 215, 0, 1);
+  }
+  100% {
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.4);
+  }
+}
