@@ -123,3 +123,18 @@ main {
 @keyframes spin {
   to { transform: rotate(360deg); }
 }
+
+.gallery {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.gallery img {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}

@@ -21,19 +21,46 @@
 </header>
 <main class="fade-in">
   <section class="team-grid">
+
+<div class="filter-bar" style="text-align:center; margin-bottom: 2rem;">
+  <label for="teamFilter"><strong>Filter by Niche:</strong></label>
+  <select id="teamFilter" onchange="filterTeams()">
+    <option value="all">All</option>
+    <option value="health">Health</option>
+    <option value="tech">Tech</option>
+    <option value="fashion">Fashion</option>
+    <option value="humor">Humor</option>
+    <option value="language">Language</option>
+    <option value="auto">Automotive</option>
+  </select>
+</div>
+<script>
+function filterTeams() {
+  var val = document.getElementById('teamFilter').value;
+  var cards = document.querySelectorAll('.team-card');
+  cards.forEach(card => {
+    if (val === 'all' || card.dataset.niche === val) {{
+      card.style.display = 'block';
+    }} else {{
+      card.style.display = 'none';
+    }}
+  });
+}
+</script>
+
     <h2>Meet Our Teams</h2>
     <div class="grid">
-<a href="Budok-Kelate/index.html" class="team-card">Budok Kelate</a>
-<a href="Boss-Yus/index.html" class="team-card">Boss Yus</a>
-<a href="Bunga-Kelate/index.html" class="team-card">Bunga Kelate</a>
-<a href="SiskaVerra/index.html" class="team-card">SiskaVerra</a>
-<a href="Akak-Kelate/index.html" class="team-card">Akak Kelate</a>
-<a href="Adik-Kelate/index.html" class="team-card">Adik Kelate</a>
-<a href="BobTechZone/index.html" class="team-card">BobTechZone</a>
-<a href="Garage-Kelate/index.html" class="team-card">Garage Kelate</a>
-<a href="Jejaka-Kelate/index.html" class="team-card">Jejaka Kelate</a>
-<a href="Gadis-Kelate/index.html" class="team-card">Gadis Kelate</a>
-</div><div class="grid" style="justify-content:center;"><a href="Abe-Bob/index.html" class="team-card">Abe Bob</a>
+<a href="Budok-Kelate/index.html" class="team-card" data-niche="humor">Budok Kelate</a>
+<a href="Boss-Yus/index.html" class="team-card" data-niche="health">Boss Yus</a>
+<a href="Bunga-Kelate/index.html" class="team-card" data-niche="health">Bunga Kelate</a>
+<a href="SiskaVerra/index.html" class="team-card" data-niche="health">SiskaVerra</a>
+<a href="Akak-Kelate/index.html" class="team-card" data-niche="health">Akak Kelate</a>
+<a href="Adik-Kelate/index.html" class="team-card" data-niche="language">Adik Kelate</a>
+<a href="BobTechZone/index.html" class="team-card" data-niche="tech">BobTechZone</a>
+<a href="Garage-Kelate/index.html" class="team-card" data-niche="auto">Garage Kelate</a>
+<a href="Jejaka-Kelate/index.html" class="team-card" data-niche="fashion">Jejaka Kelate</a>
+<a href="Gadis-Kelate/index.html" class="team-card" data-niche="fashion">Gadis Kelate</a>
+</div><div class="grid" style="justify-content:center;"><a href="Abe-Bob/index.html" class="team-card" data-niche="humor">Abe Bob</a>
     </div>
   </section>
 </main>
