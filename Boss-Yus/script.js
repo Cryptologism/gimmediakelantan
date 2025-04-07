@@ -1,3 +1,4 @@
-document.addEventListener("DOMContentLoaded", function() {
-  console.log("Page loaded.");
+
+document.addEventListener("DOMContentLoaded", function () {
+  console.log("Polished site loaded successfully.");
 });
