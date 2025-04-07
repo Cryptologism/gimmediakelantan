@@ -122,3 +122,36 @@ footer {
 .team-card:hover {
   background: var(--accent);
 }
+
+.footer {
+  background-color: #06004e;
+  color: white;
+  padding: 2rem;
+  font-size: 0.9rem;
+}
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+}
+.footer-brand p {
+  margin-top: 0.5rem;
+}
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.footer-links div ul {
+  list-style: none;
+  padding: 0;
+}
+.footer-links li {
+  margin: 0.2rem 0;
+}
+.footer-socials a {
+  margin-right: 0.5rem;
+  display: inline-block;
+}
