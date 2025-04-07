@@ -1,78 +1,110 @@
 
 :root {
-  --main-bg: #ffffff;
-  --primary-color: #6200ea;
-  --text-color: #333;
-  --header-height: 80px;
+  --main-bg: #fefefe;
+  --primary-color: #4B0082;
+  --text-color: #222;
 }
 
 * {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
   padding: 0;
-  background: var(--main-bg);
+  background-color: var(--main-bg);
   color: var(--text-color);
 }
 
 header {
   background: var(--primary-color);
   color: white;
-  height: var(--header-height);
+  padding: 1rem 2rem;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 2rem;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-nav a {
+header h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.logo {
+  height: 50px;
+  margin-right: 1rem;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 0.5rem;
+}
+
+nav li {
+  margin: 0 0.5rem;
+}
+
+nav a, .back-button {
   color: white;
   text-decoration: none;
-  margin: 0 10px;
-  font-weight: bold;
-  transition: color 0.3s ease;
+  padding: 0.5rem;
+  transition: background 0.3s ease;
 }
 
-nav a:hover {
-  color: #ddd;
+nav a:hover, .back-button:hover {
+  background-color: #333;
+  border-radius: 5px;
 }
 
 main {
-  padding: 3rem 2rem;
+  padding: 2rem;
   text-align: center;
 }
 
 .content {
-  max-width: 800px;
-  margin: 0 auto;
-  line-height: 1.6;
-}
-
-.responsive {
-  max-width: 100%;
-  height: auto;
-  margin-top: 2rem;
-  border-radius: 8px;
+  margin-bottom: 2rem;
+  animation: fadeInUp 1s ease both;
 }
 
 footer {
-  text-align: center;
   padding: 1rem;
   background: #eee;
+  text-align: center;
   font-size: 0.9rem;
-  color: #666;
-  margin-top: 3rem;
 }
 
-.fade-in {
-  animation: fadeIn 2s ease-in-out;
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(20px); }
-  to { opacity: 1; transform: translateY(0); }
+.slide-down {
+  animation: slideDown 1s ease forwards;
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
