@@ -76,15 +76,16 @@ main {
   color: #6a1b9a;
   margin: 0 4px;
 }
-.call-float, .whatsapp-float {
+.whatsapp-float {
   position: fixed;
+  bottom: 80px;
+  right: 20px;
   z-index: 101;
   background: white;
   border-radius: 50%;
   padding: 8px;
   box-shadow: 0 4px 6px rgba(0,0,0,0.2);
 }
-.call-float { bottom: 140px; right: 20px; }
 .whatsapp-float { bottom: 80px; right: 20px; }
 #backToTopBtn {
   display: none;
