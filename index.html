@@ -8,30 +8,21 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header class="hero">
-    <div class="hero-overlay">
-      <img src="https://static.wixstatic.com/media/52b1a3_1d72fe1a7b894ce0880f10dd6a0a5c3b~mv2.png/v1/fill/w_87,h_87,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Gimmedia-logo-w-v.png" alt="GIMmedia Logo" class="logo-large" />
-      <h1 class="hero-title">Welcome to GIMmedia Kelantan</h1>
-      <p class="hero-subtitle">Empowering Commerce Through Livestream & Digital Strategy</p>
-    </div>
-  </header>
-  <main class="fade-in">
-    <section class="intro">
-      <h2>About GIMmedia</h2>
-      <p>Founded in 2022, GIMmedia Sdn Bhd is a leading MCN (Multi-Channel Network) in Malaysia. We specialize in livestream management, content creation, KOL marketing, e-commerce enablement, and more. We are a TikTok Top MCN and Shopee Top MCN partner, committed to quality and innovation in the digital space.</p>
-    </section>
-
-    <section class="location">
-      <h3>Kelantan Branch</h3>
-      <p><strong>Address:</strong> Kedai Aras Tingkat Bawah, Lot 1622, Jalan Kuala Krai, Kg Batu 30, 18500 Bandar Machang, Kelantan</p>
-      <p><strong>Phone:</strong> 016-965 6877</p>
-      <p><strong>Hours:</strong> Mon–Fri, 9am–6pm</p>
-    </section>
-
-    
-    <section class="team-grid">
-      <h2>Meet Our Teams</h2>
-      <div class="grid">
+<div class="lang-switch">
+  <a href="?lang=en">EN</a> | <a href="?lang=bm">BM</a>
+</div>
+<div id="loader-wrapper"><div class="loader"></div></div>
+<header class="hero">
+  <div class="hero-overlay">
+    <img src="https://static.wixstatic.com/media/52b1a3_1d72fe1a7b894ce0880f10dd6a0a5c3b~mv2.png" alt="GIMmedia Logo" class="logo-large" />
+    <h1 class="hero-title">Welcome to GIMmedia Kelantan</h1>
+    <p class="hero-subtitle">Empowering Commerce Through Livestream & Digital Strategy</p>
+  </div>
+</header>
+<main class="fade-in">
+  <section class="team-grid">
+    <h2>Meet Our Teams</h2>
+    <div class="grid">
 <a href="Budok-Kelate/index.html" class="team-card">Budok Kelate</a>
 <a href="Boss-Yus/index.html" class="team-card">Boss Yus</a>
 <a href="Bunga-Kelate/index.html" class="team-card">Bunga Kelate</a>
@@ -42,52 +33,43 @@
 <a href="Garage-Kelate/index.html" class="team-card">Garage Kelate</a>
 <a href="Jejaka-Kelate/index.html" class="team-card">Jejaka Kelate</a>
 <a href="Gadis-Kelate/index.html" class="team-card">Gadis Kelate</a>
-<a href="Abe-Bob/index.html" class="team-card">Abe Bob</a>
-
-      </div>
-    </section>
-
-</main>
-  <footer class="footer">
-    <div class="footer-container">
-      <div class="footer-brand">
-        <img src="https://static.wixstatic.com/media/52b1a3_1d72fe1a7b894ce0880f10dd6a0a5c3b~mv2.png" alt="Logo" style="height: 50px;">
-        <p>&copy; 2025 GIMmedia. Certified Shopee Partner.</p>
-      </div>
-      <div class="footer-links">
-        <div><strong>About Us</strong>
-          <ul>
-            <li>Who We Are</li>
-            <li>What We Do</li>
-            <li>Our Team</li>
-            <li>Our Success</li>
-            <li>Careers</li>
-          </ul>
-        </div>
-        <div><strong>Features</strong>
-          <ul>
-            <li>I'm Brand</li>
-            <li>Find Influencers</li>
-            <li>I'm Creator</li>
-            <li>Join as Influencers</li>
-            <li>Latest Campaign</li>
-          </ul>
-        </div>
-        <div><strong>Find Us</strong>
-          <ul>
-            <li>HQ: 2, Jalan Limau Manis 3, Pulau Pinang</li>
-            <li>KL: Menara Takaful Malaysia, Jalan Sultan Sulaiman</li>
-            <li>Kelantan: Lot 320, Jalan Kuala Krai, Machang</li>
-          </ul>
-        </div>
-        <div class="footer-socials">
-          <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" height="20"></a>
-          <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" height="20"></a>
-          <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733558.png" height="20"></a>
-          <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" height="20"></a>
-        </div>
-      </div>
+</div><div class="grid" style="justify-content:center;"><a href="Abe-Bob/index.html" class="team-card">Abe Bob</a>
     </div>
-  </footer>
+  </section>
+</main>
+
+<a href="tel:+60169656877" class="call-float" title="Call Us">
+  <img src="https://cdn-icons-png.flaticon.com/512/455/455705.png" height="40">
+</a>
+<a href="https://wa.me/60169656877" class="whatsapp-float" target="_blank">
+  <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp" height="40">
+</a>
+<button onclick="topFunction()" id="backToTopBtn" title="Go to top">↑</button>
+<script>
+  let mybutton = document.getElementById("backToTopBtn");
+  window.onscroll = function() {
+    mybutton.style.display = (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) ? "block" : "none";
+  };
+  function topFunction() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+  window.addEventListener("load", function () {
+    document.getElementById("loader-wrapper").style.display = "none";
+  });
+</script>
+<footer class="footer sticky-footer">
+  <div class="footer-container" style="justify-content: center; text-align: center;">
+    <div>
+      <img src="https://static.wixstatic.com/media/52b1a3_1d72fe1a7b894ce0880f10dd6a0a5c3b~mv2.png" alt="Logo" style="height: 50px; margin-bottom: 1rem;">
+      <p><strong>Find Us:</strong><br>
+      GIMmedia Kelantan Branch<br>
+      Lot 320, Jalan Kuala Krai, Kg Batu 30,<br>
+      18500 Machang, Kelantan</p>
+      <p><strong>Phone:</strong> 016-965 6877<br>
+      <strong>Hours:</strong> Mon–Fri, 9am–6pm</p>
+      <p>&copy; 2025 GIMmedia. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
 </body>
 </html>
