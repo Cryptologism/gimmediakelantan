@@ -1,75 +1,169 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>GIMmedia Kelantan</title>
-  <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
-</head>
-<body style="margin: 0; padding: 0; background: url('https://iili.io/3jUNBHv.png') center center / cover no-repeat fixed; overflow: hidden;">
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: #fff;
+  color: #222;
+}
 
-<div id="loader-wrapper"><div class="loader"></div></div>
-<header class="hero">
-  <div class="hero-overlay">
-    <img src="https://static.wixstatic.com/media/52b1a3_1d72fe1a7b894ce0880f10dd6a0a5c3b~mv2.png" alt="GIMmedia Logo" class="logo-large" />
-    <h1 class="hero-title">Welcome to GIMmedia Kelantan</h1>
-    <p class="hero-subtitle">Empowering Commerce Through Livestream & Digital Strategy</p>
-  </div>
-</header>
-<main class="fade-in">
-  <section class="team-grid">
+.hero {
+  background: url('https://images.unsplash.com/photo-1581090700227-1e8e0c8826f4?auto=format&fit=crop&w=1500&q=80') no-repeat center center;
+  background-size: cover;
+  height: 320px;
+  color: white;
+  text-align: center;
+  position: relative;
+}
 
+.hero-overlay {
+  background: rgba(0, 0, 0, 0.6);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
+.logo-large {
+  height: 80px;
+  margin-bottom: 1rem;
+}
 
-</script>
+.hero-title {
+  font-size: 2.5rem;
+  margin: 0.5rem 0;
+}
 
-<h2 style="text-align: center; font-size: 2rem; margin-top: 2rem; color: #ffffff; text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff; animation: rainbow 3s linear infinite; white-space: nowrap; writing-mode: horizontal-tb;">
-  Meet Our Teams
-</h2>
+.hero-subtitle {
+  font-size: 1.1rem;
+}
 
-<style>
-  @keyframes rainbow {
-    0% { color: red; }
-    14% { color: orange; }
-    28% { color: yellow; }
-    42% { color: green; }
-    57% { color: blue; }
-    71% { color: indigo; }
-    85% { color: violet; }
-    100% { color: red; }
-  }
-</style>
+main {
+  padding: 2rem;
+  max-width: 960px;
+  margin: auto;
+}
 
+.team-grid .grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 1rem;
+  justify-items: center;
+}
 
+.team-card {
+  display: block;
+  background: #6a1b9a;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+  width: 100%;
+  max-width: 180px;
+}
 
-<a href="Budok-Kelate/index.html" class="team-card popular-team">Budok Kelate</a>
-<a href="Bunga-Kelate/index.html" class="team-card popular-team">Bunga Kelate</a>
-<a href="Akak-Kelate/index.html" class="team-card popular-team">Akak Kelate</a>
-<a href="Adik-Kelate/index.html" class="team-card popular-team">Adik Kelate</a>
-<a href="Garage-Kelate/index.html" class="team-card popular-team">Garage Kelate</a>
-<a href="Jejaka-Kelate/index.html" class="team-card popular-team">Jejaka Kelate</a>
-<a href="Gadis-Kelate/index.html" class="team-card popular-team">Gadis Kelate</a>
-<a href="SiskaVerra/index.html" class="team-card popular-team">SiskaVerra</a>
-<a href="Abe-Bob/index.html" class="team-card popular-team">Abe-Bob</a>
-<a href="Boss-Yus/index.html" class="team-card popular-team">Boss Yus</a>
-<a href="BobTechZone/index.html" class="team-card popular-team">BobTechZone</a>
+.team-card:hover { background: #f50057; }
 
+.footer {
+  background-color: #06004e;
+  color: white;
+  padding: 2rem;
+  font-size: 0.9rem;
+  text-align: center;
+}
 
-<button onclick="topFunction()" id="backToTopBtn" title="Go to top">↑</button>
-<script>
-  let mybutton = document.getElementById("backToTopBtn");
-  window.onscroll = function() {
-    mybutton.style.display = (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) ? "block" : "none";
-  };
-  function topFunction() {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  }
-  window.addEventListener("load", function () {
-    document.getElementById("loader-wrapper").style.display = "none";
-  });
-</script>
+.lang-switch {
+  position: fixed;
+  top: 10px;
+  right: 20px;
+  z-index: 2001;
+  font-weight: bold;
+}
 
-</body>
-</html>
+.lang-switch a {
+  text-decoration: none;
+  color: #6a1b9a;
+  margin: 0 4px;
+}
 
+.whatsapp-float {
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+  z-index: 101;
+  background: white;
+  border-radius: 50%;
+  padding: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
+#backToTopBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 100;
+  font-size: 18px;
+  background-color: #6a1b9a;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#backToTopBtn:hover { background-color: #f50057; }
+
+#loader-wrapper {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  z-index: 2000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loader {
+  border: 8px solid #f3f3f3;
+  border-top: 8px solid #6a1b9a;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+@keyframes rainbow {
+  0% { color: red; }
+  14% { color: orange; }
+  28% { color: yellow; }
+  42% { color: green; }
+  57% { color: blue; }
+  71% { color: indigo; }
+  85% { color: violet; }
+  100% { color: red; }
+}
+
+/* Force horizontal text */
+h2 {
+  writing-mode: unset;
+  transform: none;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.team-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
