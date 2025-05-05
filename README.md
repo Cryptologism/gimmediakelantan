@@ -14,27 +14,56 @@ This branch operates with a diverse team structure to cover both general and nic
 
 ## 🧠 Core Management Team
 
-### 👩‍💼 Miss Eiyla — *Data Analyst & Operations Auditor*
-- The **first lady of Gimmedia Kelantan**
-- Handles **GMV reports**, detects **bugs**, and audits workflow errors
-- Provides **data-based insights** for performance and system refinement
-
-### 🧑‍💼 Sir Shahrul — *System Troubleshooter & TikTok Strategist*
-- **Veteran since May 2023**
-- Expert in TikTok algorithm, monetization, and live tools
-- Maintains **system logic** and platform adaptation strategies
-
-### 🧑‍💼 Sir Syahidan — *TSP Project Manager & Data Supervisor*
-- In charge of the **TSP project**, the second-largest initiative in Gimmedia
-- Oversees **daily host scheduling**, data sheets, and compliance
-- Manages all backend data related to TSP activities
-
-### 🧑‍💼 Sir Ikhwan — *IT & R&D Director*
-- The **core IT and automation specialist**
-- Manages **coding, scripting, dashboards**, and **error bypasses**
-- Leads **R&D, system improvements**, and technical decision-making
+The driving force behind Gimmedia Kelantan is its elite management lineup — a team of dedicated visionaries, strategists, and technical masterminds who uphold the company’s values while propelling it to new heights. Each individual brings unmatched expertise and plays a critical role in ensuring day-to-day success and long-term innovation.
 
 ---
+
+### 👩‍💼 Miss Eiyla — *Lead Data Strategist & Operations Auditor*
+
+Often referred to as the **First Lady of Gimmedia Kelantan**, Miss Eiyla is more than a foundational figure — she is the **data guardian** of the entire branch. Her precision and consistency are legendary.
+
+- Leads **daily GMV analytics**, monitors trends, and identifies blind spots across operations.
+- Conducts deep-dive audits to detect **errors, workflow gaps, and data inconsistencies** before they impact performance.
+- Known for transforming complex spreadsheets into actionable insights that **steer executive decisions**.
+- A key force in maintaining **operational integrity and strategic clarity**.
+
+---
+
+### 🧑‍💼 Sir Shahrul — *System Architect & Legacy Strategist*
+
+A true **pioneer of the TikTok wave**, Sir Shahrul has been part of Gimmedia since the early stages of its TikTok journey (May 2023). His deep institutional memory makes him the team’s **go-to TikTok expert** and systems thinker.
+
+- Specializes in **backend troubleshooting**, campaign tracking, and algorithm alignment.
+- Bridges old and new — preserving valuable practices while evolving strategies for current trends.
+- Revered for his **problem-solving instincts**, especially in high-pressure or high-scale scenarios.
+- Keeps the tech foundations stable while optimizing for future scalability.
+
+---
+
+### 🧑‍💼 Sir Syahidan — *TSP Project Director & Data Governance Lead*
+
+As the commander of the **TSP (TikTok Sales Partner) Project** — the company’s **second-largest operation** — Sir Syahidan ensures every gear in the system turns smoothly and effectively.
+
+- Designs and enforces **TSP structures, host allocations, and policy tracking**.
+- Manages end-to-end execution, from team coordination to data pipelines.
+- Oversees a high-stakes ecosystem involving schedules, performance reports, and strict operational compliance.
+- Known for delivering **flawless execution under pressure** and refining team strategy with **surgical precision**.
+
+---
+
+### 🧑‍💼 Sir Ikhwan — *Chief Technology & Innovation Officer (CTIO)*
+
+The brain behind Gimmedia Kelantan’s tech stack, Sir Ikhwan is the **backbone of all digital innovation and infrastructure**. From coding to R&D, he is the ultimate technical authority across the board.
+
+- Leads development of **custom dashboards, network systems, and error-bypass utilities**.
+- Drives **research and development**, introducing tools and processes that save time, reduce errors, and maximize output.
+- Expert in automation, AI-assisted workflows, and TikTok API logic — turning complex tech into seamless daily execution.
+- A trusted **decision-maker** for all things IT, ensuring Gimmedia stays ahead of the curve.
+
+---
+
+> 🏆 Together, this leadership unit forms the unshakable core of Gimmedia Kelantan — blending data, tech, and execution into a powerhouse that drives results.
+
 
 ## 👥 Operational Team Lineup
 
