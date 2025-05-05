@@ -72,7 +72,7 @@ The Gimmedia Kelantan branch operates with **15 active teams**, divided into gen
 ### 🔹 General Operations Teams
 These teams handle day-to-day livestreaming, product demos, and content operations:
 
-- Budok Kelate  
+- Budok Kelate  (https://cryptologism.github.io/gimmediakelantan/Budok-Kelate/index.html)
 - Bunga Kelate  
 - Akak Kelate  
 - Adik Kelate  
