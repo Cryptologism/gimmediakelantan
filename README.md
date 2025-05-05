@@ -1,14 +1,19 @@
-# 📍 Gimmedia Kelantan Branch – Team Explanation
+## 📍 Gimmedia Kelantan Branch – Team Explanation
 
-## 🏢 About Us
+### 🏢 About Us
 
-**Gimmedia Kelantan** is a regional branch of **Gimmedia Sdn Bhd** focused on:
-- TikTok Shop affiliate sales
-- Livestream product marketing
-- Video content production (UGC and editing)
-- Backend reporting, analytics, and data integrity
+Gimmedia Kelantan is a regional branch of **Gimmedia Sdn Bhd** focused on:
+
+- TikTok Shop affiliate sales  
+- Livestream product marketing  
+- Video content production (UGC and editing)  
+- Backend reporting, analytics, and data integrity  
 
 This branch operates with a diverse team structure to cover both general and niche markets through TikTok campaigns and livestreams.
+
+📍 **Location on Google Maps**  
+[View Gimmedia Kelantan Branch on Google Maps](https://maps.app.goo.gl/pYDnFrGZWEv5DFRL6)
+
 
 ---
 
