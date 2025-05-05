@@ -72,17 +72,18 @@ The Gimmedia Kelantan branch operates with **15 active teams**, divided into gen
 ### 🔹 General Operations Teams
 These teams handle day-to-day livestreaming, product demos, and content operations:
 
-- Budok Kelate  (https://cryptologism.github.io/gimmediakelantan/Budok-Kelate/index.html)
-- Bunga Kelate  
-- Akak Kelate  
-- Adik Kelate  
-- Garage Kelate  
-- Jejaka Kelate  
-- Gadis Kelate  
-- SiskaVerra  
-- Abe-Bob  
-- Boss Yus  
-- BobTechZone  
+- [Budok Kelate](https://cryptologism.github.io/gimmediakelantan/Budok-Kelate/index.html)
+- [Bunga Kelate](https://cryptologism.github.io/gimmediakelantan/Bunga-Kelate/index.html)
+- [Akak Kelate](https://cryptologism.github.io/gimmediakelantan/Akak-Kelate/index.html)
+- [Adik Kelate](https://cryptologism.github.io/gimmediakelantan/Adik-Kelate/index.html)
+- [Garage Kelate](https://cryptologism.github.io/gimmediakelantan/Garage-Kelate/index.html)
+- [Jejaka Kelate](https://cryptologism.github.io/gimmediakelantan/Jejaka-Kelate/index.html)
+- [Gadis Kelate](https://cryptologism.github.io/gimmediakelantan/Gadis-Kelate/index.html)
+- [SiskaVerra](https://cryptologism.github.io/gimmediakelantan/SiskaVerra/index.html)
+- [Abe-Bob](https://cryptologism.github.io/gimmediakelantan/Abe-Bob/index.html)
+- [Boss Yus](https://cryptologism.github.io/gimmediakelantan/Boss-Yus/index.html)
+- [BobTechZone](https://cryptologism.github.io/gimmediakelantan/BobTechZone/index.html)
+ 
 
 ### 🔸 Specialized Teams
 
