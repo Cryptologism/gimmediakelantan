@@ -5,6 +5,36 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Garage Kelate</title>
   <link rel="stylesheet" href="../style.css" />
+
+  <!-- Motto Font & Animation -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap" rel="stylesheet">
+  <style>
+    @keyframes slideInMotto {
+      0% {
+        transform: translateY(20px);
+        opacity: 0;
+      }
+      100% {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+
+    .hero-motto {
+      font-family: 'Playfair Display', serif;
+      font-style: italic;
+      font-size: 0.95em;
+      color: #4caf50;
+      letter-spacing: 0.5px;
+      text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+      border-bottom: 1px dashed #4caf50;
+      padding-bottom: 4px;
+      display: inline-block;
+      margin-top: 12px;
+      animation: slideInMotto 1s ease-out forwards;
+      opacity: 0;
+    }
+  </style>
 </head>
 <body>
   <header class="hero">
@@ -12,6 +42,7 @@
       <img src="https://static.wixstatic.com/media/52b1a3_1d72fe1a7b894ce0880f10dd6a0a5c3b~mv2.png" alt="Logo" class="logo-large" />
       <h1 class="hero-title">Garage Kelate</h1>
       <p class="hero-subtitle">Specializing in automotive products and accessories through engaging live streams.</p>
+      <p class="hero-motto">" Khas Utk Jentera Anda "</p>
     </div>
   </header>
 

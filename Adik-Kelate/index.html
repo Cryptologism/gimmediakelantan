@@ -5,6 +5,36 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Adik Kelate</title>
   <link rel="stylesheet" href="../style.css" />
+
+  <!-- Fancy font and motto style -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap" rel="stylesheet">
+  <style>
+    @keyframes slideInMotto {
+      0% {
+        transform: translateY(20px);
+        opacity: 0;
+      }
+      100% {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+
+    .hero-motto {
+      font-family: 'Playfair Display', serif;
+      font-style: italic;
+      font-size: 0.95em;
+      color: #ffcc00;
+      letter-spacing: 0.5px;
+      text-shadow: 1px 1px 2px rgba(0,0,0,0.4);
+      border-bottom: 1px dashed #ffcc00;
+      padding-bottom: 4px;
+      display: inline-block;
+      margin-top: 12px;
+      animation: slideInMotto 1s ease-out forwards;
+      opacity: 0;
+    }
+  </style>
 </head>
 <body>
   <header class="hero">
@@ -12,6 +42,7 @@
       <img src="https://static.wixstatic.com/media/52b1a3_1d72fe1a7b894ce0880f10dd6a0a5c3b~mv2.png" alt="Logo" class="logo-large" />
       <h1 class="hero-title">Adik Kelate</h1>
       <p class="hero-subtitle">Providing Quality Workshop Tools and Items</p>
+      <p class="hero-motto">" Alat Berkualiti, Hasil Berprestasi "</p>
     </div>
   </header>
 
@@ -37,7 +68,7 @@
       </p>
 
       <p style="line-height: 1.7; color: #444;">
-        Adik Kelate has also established a strong connection with Personal In-Charge each brand, working closely with top sellers like **Dagmara** and **Keelat** to provide exclusive reviews, product demos, and collaborations that help expand their audience and credibility.
+        Adik Kelate has also established a strong connection with Personal In-Charge each brand, working closely with top sellers like <strong>Dagmara</strong> and <strong>Keelat</strong> to provide exclusive reviews, product demos, and collaborations that help expand their audience and credibility.
       </p>
 
       <ul style="line-height: 1.8; padding-left: 1.5rem; color: #444;">
