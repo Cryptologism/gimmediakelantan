@@ -108,3 +108,19 @@ footer {
     opacity: 1;
   }
 }
+
+/* =========================
+   Side-by-side TikTok videos
+   ========================= */
+.tiktok-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; /* space between videos */
+}
+
+.tiktok-row .tiktok-embed {
+  flex: 1 1 325px; /* grow/shrink but base width 325px */
+  max-width: 325px;
+  min-width: 325px;
+}
