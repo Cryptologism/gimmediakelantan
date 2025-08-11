@@ -112,15 +112,14 @@ footer {
 /* =========================
    Side-by-side TikTok videos
    ========================= */
-.tiktok-row {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px; /* space between videos */
+/* Force TikTok embeds to align in a row */
+.tiktok-row .tiktok-embed {
+  display: inline-block !important;
+  vertical-align: top;
 }
 
-.tiktok-row .tiktok-embed {
-  flex: 1 1 325px; /* grow/shrink but base width 325px */
-  max-width: 325px;
-  min-width: 325px;
+.tiktok-row iframe {
+  display: inline-block !important;
+  width: 325px !important;
+  height: 580px !important; /* adjust height if needed */
 }
