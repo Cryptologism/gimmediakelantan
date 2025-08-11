@@ -39,11 +39,11 @@
     </div>
   </header>
 
-  <main class="fade-in">
-    <!-- TikTok Embed (randomized) -->
-    <blockquote id="tiktokEmbed" class="tiktok-embed" cite="" data-video-id="" style="max-width: 325px; min-width: 325px;">
-      <section></section>
-    </blockquote>
+<main class="fade-in">
+  <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@budokkelate1/video/7310963084070276354" data-video-id="7310963084070276354" style="max-width: 325px;min-width: 325px;">
+    <section></section>
+  </blockquote>
+  <script async src="https://www.tiktok.com/embed.js"></script>
 
     <section class="content" style="text-align: left; background: #f4f4f9; border: 1px solid #ddd; padding: 1.5rem 2rem; border-radius: 10px; margin-top: 2rem; box-shadow: 0 3px 6px rgba(0,0,0,0.1); font-family: 'Arial', sans-serif;">
       <h2 style="color: #4caf50; font-size: 1.6rem; margin-bottom: 1rem;">🌟 About Garage Kelate</h2>
@@ -108,84 +108,6 @@
         <p>&copy; 2025 GIMmedia. All rights reserved.</p>
       </div>
     </div>
-  </footer>
-
-  <!-- Random TikTok Embed Script -->
-<!-- TikTok Embed (randomized + fallback) -->
-<div id="tiktok-spot" style="max-width:325px; min-width:325px;"></div>
-
-<script>
-  (function () {
-    // Serve over http(s). TikTok won’t render on file://
-    const ids = [
-      "7535009405780151560",
-      "7523876437204438280",
-      "7524230653819325704",
-      "7332783681913818370" // known-good fallback
-    ];
-
-    // shuffle
-    for (let i = ids.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [ids[i], ids[j]] = [ids[j], ids[i]];
-    }
-
-    const spot = document.getElementById("tiktok-spot");
-
-    function mount(id) {
-      // clear previous
-      spot.innerHTML = "";
-      const bq = document.createElement("blockquote");
-      bq.className = "tiktok-embed";
-      bq.style.maxWidth = "325px";
-      bq.style.minWidth = "325px";
-      bq.setAttribute("cite", `https://www.tiktok.com/@garage.kelate/video/${id}`);
-      bq.setAttribute("data-video-id", id);
-      bq.appendChild(document.createElement("section"));
-
-      // clickable fallback link (shows if embed blocked)
-      const p = document.createElement("p");
-      p.innerHTML = `<a href="https://www.tiktok.com/@garage.kelate/video/${id}" target="_blank" rel="noopener">Open video on TikTok</a>`;
-      bq.appendChild(p);
-
-      spot.appendChild(bq);
-    }
-
-    function ensureTikTokScript(cb) {
-      const already = document.querySelector('script[src^="https://www.tiktok.com/embed.js"]');
-      if (already) { 
-        // re-run by re-adding the script (TikTok rescans on load)
-        const s = document.createElement("script");
-        s.src = "https://www.tiktok.com/embed.js";
-        s.async = true;
-        s.onload = cb;
-        document.body.appendChild(s);
-        return;
-      }
-      const s = document.createElement("script");
-      s.src = "https://www.tiktok.com/embed.js";
-      s.async = true;
-      s.onload = cb;
-      document.body.appendChild(s);
-    }
-
-    let idx = 0;
-    function tryNext() {
-      if (idx >= ids.length) return; // give up quietly
-      const id = ids[idx++];
-      mount(id);
-      ensureTikTokScript(() => {
-        // if still blank after 2s, try next ID
-        setTimeout(() => {
-          const iframe = spot.querySelector("iframe");
-          if (!iframe) tryNext();
-        }, 2000);
-      });
-    }
-
-    tryNext();
-  })();
-</script>
-
+</footer>
 </body>
 </html>
